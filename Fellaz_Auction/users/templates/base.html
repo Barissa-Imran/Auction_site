@@ -29,11 +29,17 @@
             font-family: "Poppins", sans-serif;
       }
         label, input{
-            display: block;
+            display: inline-block;
     }
         span.helptext{
             display:none;
     }
+        h2{
+            color: #B52F6E;
+        }
+        form{
+            padding-top: 2%;
+        }
     </style>
     </head>
     <body>
@@ -73,6 +79,11 @@
                 </li>
              </ul>
         </nav>
-
+        <!--global footer-->
+        <div class="bt-card fixed-bottom text-light small text-center bg-secondary">
+            <footer class="">
+                <p>All rights reserved &#169; 2021. Made in Nairobi by B'labs</p>
+            </footer>
+        </div>
 {%block content%}
 {% endblock %}
