@@ -126,7 +126,7 @@ STATIC_URL = '/static/'
 
 STATIC_DIRS = [
     BASE_DIR /"static",
-    '/core/templates/static'
+    'core/templates/static'
 ]
 
 LOGIN_REDIRECT_URL = 'dashboard'
